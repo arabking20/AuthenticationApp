@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">AuthenticationApp</string>
+    <string name="started_title">GreenFlag customers can create an account to access</string>
+    <string  name="started_sub_titlef">
+        <l>Car health updates </l>
+
+        <l>Request a rescue online</l>
+
+        <l>Policy information</l>
+
+        <n><br><b>Login</b> if you alrady have an account. </br></n>
+
+        <n><br><b>Register</b> to get started. </br> </n>
+
+    </string>
+    <string name="started_sub_title">Car health updates</string>
+    <string name="started_sub_title_two">Request a rescue online</string>
+    <string name="started_sub_title_three">Policy information</string>
+
+
+    <string name="started_sub_log_title"><br><b>Login</b> if you already have an account. </br></string>
+
+    <string name="started_reg_title"><br><b>Create an account</b> to get started. </br></string>
+
+
+
+    <string name="check_img">check_img</string>
+    <string name="btn_register">Create an account</string>
+    <string name="illustration_img">illustration_img</string>
+    <string name="btn_login">Login</string>
+    <string name="login_title">Login to app</string>
+
+    <string name="login_sub_title"><font color="#000000"><b>Login</b></font> if you already have an account.
+    </string>
+    <string name="login_email">Your Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_forgot_pw">Forgot Password</string>
+
+    <string name="login_havent_account">
+
+        <font color="#000000"><b>I dont\'t have an account</b></font>
+    </string>
+    <string name="register_title">Create a account</string>
+    <string name="register_sub_title"><font color="#000000"><b>Create an account</b></font> to get started with the app.
+    </string>
+    <string name="register_email">Email</string>
+    <string name="register_confirm_password">Confirm Password</string>
+    <string name="register_have_account">
+        I already have an account
+        <font color=" #000000 ">
+            <b>Login</b>
+        </font>
+    </string>
+
+    <string name="create_sub_text"><n>Your password should have have a minimum of 8 characters and contain at least one number, one uppercase, and one lower case letter. You can use special characters </n>
+    </string>
+    <string name="home_sub_title">Here is the information</string>
+    <string name="home_title">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="required">Required</string>
+    <string name="btn_create_account">Create Account</string>
+
+
+
+</resources>

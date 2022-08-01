@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_started_title"
+        android:layout_width="328dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="184dp"
+        android:fontFamily="@font/museosans_500"
+        android:text="@string/started_title"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_started_sub_title"
+        android:layout_width="321dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/museosans_300"
+        android:text="@string/started_sub_title"
+        android:textColor="@color/white"
+
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_started_title" />
+
+    <TextView
+        android:id="@+id/tv_started_sub_title_two"
+        android:layout_width="321dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/museosans_300"
+        android:text="@string/started_sub_title_two"
+        android:textColor="@color/white"
+
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_started_title" />
+
+    <TextView
+        android:id="@+id/tv_started_sub_title_three"
+        android:layout_width="321dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="112dp"
+        android:fontFamily="@font/museosans_300"
+        android:text="@string/started_sub_title_three"
+        android:textColor="@color/white"
+
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_started_title" />
+
+    <TextView
+        android:id="@+id/tv_started_log_title"
+        android:layout_width="321dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="192dp"
+        android:fontFamily="@font/museosans_300"
+        android:text="@string/started_sub_log_title"
+        android:textColor="@color/white"
+
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_started_title" />
+
+    <TextView
+        android:id="@+id/tv_started_reg_title"
+        android:layout_width="321dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="224dp"
+        android:fontFamily="@font/museosans_300"
+        android:text="@string/started_reg_title"
+        android:textColor="@color/white"
+
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_started_title" />
+
+
+    <ImageView
+        android:id="@+id/img_illustration_starterd"
+        android:layout_width="334dp"
+        android:layout_height="93dp"
+        android:contentDescription="@string/illustration_img"
+        android:src="@drawable/logo_green_flag"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+
+    <ImageView
+        android:id="@+id/img_illustration_check2"
+        android:layout_width="23dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="@string/check_img"
+        android:src="@drawable/ic_baseline_check_24"
+        app:barrierMargin="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_started_sub_title"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_started_title"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/img_illustration_check"
+        android:layout_width="24dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="@string/check_img"
+
+        android:src="@drawable/ic_baseline_check_24"
+        app:barrierMargin="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_started_sub_title_two"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_illustration_check2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/img_illustration_check3"
+        android:layout_width="24dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="@string/check_img"
+        android:src="@drawable/ic_baseline_check_24"
+        app:barrierMargin="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_started_sub_title_three"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_illustration_check"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        style="@style/ButtonBlack"
+        android:layout_width="389dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/btn_login"
+        app:layout_constraintBottom_toTopOf="@+id/btn_register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_register"
+        style="@style/ButtonBlack"
+        android:layout_width="389dp"
+        android:layout_height="67dp"
+        android:layout_margin="30dp"
+        android:layout_marginBottom="30dp"
+
+        android:text="@string/btn_register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
